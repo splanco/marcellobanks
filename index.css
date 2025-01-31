@@ -4,6 +4,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.name {
+    font-size: 5ch;
+    margin: 0 32px 0 0;
+}
+
 .navigation {
     display: 'flex';
     justify-content: flex-start;
@@ -12,12 +23,15 @@ body {
 
 .nav-element {
     padding: 4px;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
 }
 
 .nav-element:hover {
     cursor: pointer;
+}
+
+.main {
+    display: flex;
+    align-items: center;
 }
 
 .slideshow {
